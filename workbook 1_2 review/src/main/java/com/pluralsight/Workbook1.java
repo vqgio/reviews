@@ -4,8 +4,10 @@ import java.time.DateTimeException;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDate;
 
+
 public class Workbook1 {
     public static void main(String[] args) {
+
 //        double number = 5.14;;
 //
 //        System.out.println(Math.round(number));
@@ -40,14 +42,14 @@ public class Workbook1 {
         System.out.println(date2);
 
         StringBuilder mongus = new StringBuilder();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 21; i++) {
             //first append creates the list, 2nd append numbers list, third append adds commas for organization
             mongus.append("Item ").append(i).append(", ");
-        }k
+        }
         String message = mongus.toString();
 
         System.out.println(mongus);
 
-
     }
+
 }

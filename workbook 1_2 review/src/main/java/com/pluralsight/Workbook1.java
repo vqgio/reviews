@@ -38,5 +38,16 @@ public class Workbook1 {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
         LocalDate date2 = LocalDate.parse("05/15/2023", formatter);
         System.out.println(date2);
+
+        StringBuilder mongus = new StringBuilder();
+        for (int i = 0; i < 20; i++) {
+            //first append creates the list, 2nd append numbers list, third append adds commas for organization
+            mongus.append("Item ").append(i).append(", ");
+        }k
+        String message = mongus.toString();
+
+        System.out.println(mongus);
+
+
     }
 }

@@ -15,7 +15,6 @@ public class Workbook1 {
 //        String name2 = "Bob";
 
 
-
 //        System.out.println(name1.equals(name2));
 
 //        System.out.println(name1.equalsIgnoreCase(name2));
@@ -50,6 +49,11 @@ public class Workbook1 {
 
         System.out.println(mongus);
 
+        String[] names = {"Alice", "Bob", "Charlie"};
+        int[] scores = new int[10];// Creates array with 10 elements (all 0)// Iterating with regular for loop (when index matters)
+        for (int i = 0; i < names.length; i++) {
+            System.out.println((i + 1) + ". " + names[i]);
+        }
     }
 
 }
